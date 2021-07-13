@@ -20,6 +20,92 @@ body{
   .active{
       font-weight: 500;
   }
+/* try */
+  
+ .section-title h2 {
+  text-transform: uppercase;
+}
+.section-title {
+  margin: 3% 0;
+}
+.section-title p {
+  text-transform: uppercase;
+  font-weight:bold;
+}
+.single-team{
+  padding-bottom: 70px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow:5px 5px 15px #000;
+}
+
+.team-img{
+  position: relative;
+  z-index: 5;
+  overflow: hidden;
+}
+.team-img img{
+  width: 100%;
+  transition: .3s;
+}
+.single-team:hover .team-img img {
+  transform: scale(1.1);
+}
+.team-content {
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  bottom: 0;
+  transition: all .4s;
+  background:#caebf2;
+  z-index:5;
+}
+.single-team:hover .team-content{
+  height: 150px;
+}
+.team-info {
+  padding: 5px 20px 5px 20px;
+  transition: all .5s;
+}
+.single-team:hover .team-content{
+  background:#ff3b3f;
+}
+.single-team .team-content .team-info h3 {
+  text-transform: uppercase;
+  color: black;
+  font-size: 16px;
+  margin: 5px;
+}
+.single-team:hover .team-info h3{
+  color:black;
+  ;
+}
+.team-info p {
+  margin-top: 15px;
+  color:black;
+}
+.single-team-text p{
+  margin-top: 5px;
+}
+.team-text {
+  color: black;
+  padding: 0 10px 5px;
+}
+
+
+
+
+
+/* ignore the code below */
+
+
+      
+
+
+
   /* footer */
 .site-footer{
     padding: 5em 0;
