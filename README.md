@@ -1,3 +1,3 @@
 # WalltoWallArchitects
 
-Github Pages : https://prachipathak15.github.io/WalltoWallArchitects/
+Github Pages : https://ritikjaiswal019.github.io/WalltoWallArchitects/
