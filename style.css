@@ -1,112 +1,55 @@
 body{
     background-color: #edebeb;
 }
-.d-flex{
-    width:100%;
-  }
-  .navbar-collapse{
-      justify-content: flex-end;
-  }
-  .nav-item{
-      margin-right: 2rem;
+#carouselHomeFade{
+    margin-top: 60px;
+}
+.parallax {
+    /* The image used */
+    background-image: url("./images/carousel1.jpg");
   
-  }
-  .nav-link:hover{
-      color: black!important;
-  }
-  .nav-link{
-      font-weight: 450;
-  }
-  .active{
-      font-weight: 500;
-  }
-/* try */
+    /* Set a specific height */
+    min-height: 250px; 
   
- .section-title h2 {
-  text-transform: uppercase;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+.parallax h3{
+    color: rgb(168, 64, 84, 1);
 }
-.section-title {
-  margin: 3% 0;
-}
-.section-title p {
-  text-transform: uppercase;
-  font-weight:bold;
-}
-.single-team{
-  position: relative;
-  z-index: 1;
-  min-width: 200px;
-  /* max-width: 400px; */
-  overflow: hidden;
-  text-align: -webkit-center;
+.parallax:after{
+    content: "";
+    background: rgba(255,255,255,0.3);
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
+.center-contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* About Section */
+.about-section{
+    height: 20vw;
+}
+
+/* Our Team */
 .team-img{
-  position: relative;
-  z-index: 5; 
-  overflow: hidden;
-}
-.team-img img{
-  width: 100%;
-  transition: .3s;
-}
-.single-team:hover .team-img img {
-  transform: scale(1.1);
-}
-.team-content {
-  width: 100%;
-  height: 250px;
-  position: absolute;
-  text-align: center;
-  overflow: hidden;
-  bottom: -200px;
-  transition: all .4s;
-  background:#caebf2;
-  z-index:5;
-}
-.single-team:hover .team-content{
-  bottom: -25px;
-}
-.team-info {
-  padding: 5px 20px 5px 20px;
-  transition: all .5s;
-}
-.single-team:hover .team-content{
-  background:#ff3b3f;
-}
-.single-team .team-content .team-info h3 {
-  text-transform: uppercase;
-  color: black;
-  font-size: 16px;
-  margin: 5px;
-}
-.single-team:hover .team-info h3{
-  color:black;
-}
-.team-info p {
-  margin-top: 15px;
-  color:black;
-}
-.single-team-text p{
-  margin-top: 5px;
-}
-.team-text {
-  color: black;
-  padding: 0 10px 5px;
+    border-radius: 10px;
+    max-width: 300px;
 }
 
-
-
-
-
-/* ignore the code below */
-
-
-      
-
-
-
-  /* footer */
+/* footer */
 .site-footer{
     padding: 5em 0;
     background:rgba(7, 7, 7, 0.9);
@@ -131,7 +74,7 @@ body{
     letter-spacing: .05em;
     color: #edebeb;
 }
-.site-footer .footer-link li{
+/* .site-footer .footer-link li{
     line-height: 1.5;
     margin-bottom: 15px;
 }
@@ -146,9 +89,15 @@ body{
     display: inline-block;
 }
 .footer-social a:hover{
-    /* background-color: #edebeb; */
+    /* background-color: #edebeb; 
     border-color:#fff;
 }
 .footer-social .fab{
     margin-top:6px ;
+} */
+
+@media (min-width:991px){
+    #carouselHomeFade{
+        margin-top: 0;
+    }
 }

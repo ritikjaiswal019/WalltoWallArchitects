@@ -11,130 +11,155 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css" />
   <script src="https://kit.fontawesome.com/d4e62f7a0a.js" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
   <title>Wall to Wall Architects</title>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="images/logo.png" alt="" width="40" height="30" class="d-inline-block align-text-top">
-        Wall to Wall Architects
+      <a class="navbar-brand p-0 m-0" href="">
+        <img src="images/logo.png" alt="" width="100" height="60" class="d-inline-block align-text-top ">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0navbar-nav ms-auto ">
+      <div class="collapse navbar-collapse justify-content-end me-5 ms-3" id="navbarSupportedContent">
+        <ul class="navbar-nav me-5">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Our Team</a>
+            <a class="nav-link" href="">Our Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="">Contact Us</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-
-  <div class="team-area bg-white">
-    <div class="container-lg">
-      <div class="row py-4">
-        <div class="col-md-12 my-4">
-          <div class="section-title text-center">
-            <h2>Our Team</h2>
-            <p>"Teamwork is in our DNA, whether it's supporting each other internally or helping out clients directly,
-              you can be sure you'll receive the best customer service."
-            </p>
-          </div>
+  <!-- Carousel -->
+  <div id="carouselHomeFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/carousel1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the First slide.</p>
         </div>
       </div>
-
-      <div class="row py-4 mx-0">
-        <!--== Single Team Item ==-->
-        <div class="col-md-4 my-2">
-          <div class="single-team shadow">
-            <div class="team-img">
-              <img src="images/richa.jpg" alt="" class="img-responsive rounded-3">
-            </div>
-            <div class="team-content">
-              <div class="team-info">
-                <h3>Ar. Richa Pathak
-                </h3>
-                <p>B.Arch (Principal Architect)
-                </p>
-              </div>
-              <p class="team-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quasi, vel.</p>
-            </div>
-          </div>
-        </div>
-        <!--== Single Team Item ==-->
-        <div class="col-md-4 my-2">
-          <div class="single-team shadow">
-            <div class="team-img">
-              <img src="images/adesh.jpg" alt="" class="img-responsive rounded-3">
-            </div>
-            <div class="team-content">
-              <div class="team-info">
-                <h3>Adesh Pradeep Narkhede
-                </h3>
-                <p>M.Tech (Health, Safety, Environment) B.Tech (Civil & Chemical Engineer)
-                </p>
-              </div>
-              <p class="team-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quasi, vel.</p>
-            </div>
-          </div>
-        </div>
-        <!--== Single Team Item ==-->
-        <div class="col-md-4 my-2">
-          <div class="single-team shadow">
-            <div class="team-img">
-              <img src="images/preksha.jpg" alt="" class="img-responsive rounded-3">
-            </div>
-            <div class="team-content">
-              <div class="team-info">
-                <h3>Preksha Pathak
-                </h3>
-                <p>BBA(H) Student(H.R , Manager, Digital Marketer)
-                </p>
-              </div>
-              <p class="team-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quasi, vel.</p>
-            </div>
-          </div>
+      <div class="carousel-item">
+        <img src="./images/carousel2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the Second slide.</p>
         </div>
       </div>
-      <div class="row d-flex justify-content-center py-4 mx-0">
-        <!--== Single Team Item ==-->
-        <div class="col-md-4">
-          <div class="single-team  shadow-lg">
-            <div class="team-img">
-              <img src="images/prachi.jpg" alt="" class="img-responsive rounded-3">
-            </div>
-            <div class="team-content">
-              <div class="team-info">
-                <h3>Prachi Pathak
-                </h3>
-                <p>Web Developer</p>
-              </div>
-              <p class="team-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quasi, vel.</p>
-            </div>
+      <div class="carousel-item">
+        <img src="./images/carousel3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselHomeFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselHomeFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="about-section container-lg py-4">
+    <h4 class="text-center">About Us</h4>
+  </div>
+
+  <div class="parallax center-contents">
+    <h3 class="text-light text-center">Our Team</h3>
+  </div>
+  <div class="teams-section container-lg my-4">
+    <div class="row px-0 mx-0">
+      <div class="col-12 col-sm-4 d-flex justify-content-center my-2">
+        <img src="./images/richa.jpg" class="team-img w-100 shadow-lg" alt="">
+      </div>
+      <div class="col-12 col-sm-8 my-2">
+        <h4 class="">Ar.Richa Pathak</h4>
+        <h6 class="text-muted">B.Arch (Principal Architect)</h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolorum velit, ea minus culpa recusandae
+          distinctio tempore nisi eum fugiat officiis vitae sunt quidem accusantium cumque quod animi eveniet
+          repellendus?</p>
+        <div class="social">
+          <div class="social">
+            <a href="#" class="p-1 rounded-circle"><span class=""><i
+                  class="fab fa-facebook text-primary fs-4"></i></span></a>
+            <a href="#" class="p-1 rounded-circle"><span class=""><i
+                  class="fab fa-linkedin-in text-primary fs-4"></i></span></a>
+            <a href="#" class="p-1 rounded-circle"><span class=""><i
+                  class="fab fa-instagram text-primary fs-4"></i></span></a>
           </div>
         </div>
       </div>
     </div>
+    <div class="row px-0 mx-0">
+      <div class="col-12 col-sm-4 d-flex justify-content-center my-2">
+        <img src="./images/adesh.jpg" class="team-img w-100 shadow-lg" alt="">
+      </div>
+      <div class="col-12 col-sm-8 my-2">
+        <h4 class="">Adesh Pradeep Narkhede</h4>
+        <h6 class="text-muted">M.Tech (Health, Safety, Environment)</h6>
+        <h6 class="text-muted">B.Tech (Civil & Chemical Engineer) </h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolorum velit, ea minus culpa recusandae
+          distinctio tempore nisi eum fugiat officiis vitae sunt quidem accusantium cumque quod animi eveniet
+          repellendus?</p>
+        <div class="social">
+          <div class="social">
+            <a href="#" class="p-1 rounded-circle"><span class=""><i
+                  class="fab fa-facebook text-primary fs-4"></i></span></a>
+            <a href="#" class="p-1 rounded-circle"><span class=""><i
+                  class="fab fa-linkedin-in text-primary fs-4"></i></span></a>
+            <a href="#" class="p-1 rounded-circle"><span class=""><i
+                  class="fab fa-instagram text-primary fs-4"></i></span></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="row px-0 mx-0">
+      <div class="col-12 col-sm-4 d-flex justify-content-center my-2">
+        <img src="./images/preksha.jpg" class="team-img w-100 shadow-lg" alt="">
+      </div>
+      <div class="col-12 col-sm-8 my-2">
+        <h4 class="">Preksha Pathak</h4>
+        <h6 class="text-muted">
+          <p>BBA(H) Student(H.R , Manager, Digital Marketer)
+        </h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolorum velit, ea minus culpa recusandae
+          distinctio tempore nisi eum fugiat officiis vitae sunt quidem accusantium cumque quod animi eveniet
+          repellendus?</p>
+        <div class="social">
+          <a href="#" class="p-1 rounded-circle"><span class=""><i
+                class="fab fa-facebook text-primary fs-4"></i></span></a>
+          <a href="#" class="p-1 rounded-circle"><span class=""><i
+                class="fab fa-linkedin-in text-primary fs-4"></i></span></a>
+          <a href="#" class="p-1 rounded-circle"><span class=""><i
+                class="fab fa-instagram text-primary fs-4"></i></span></a>
+        </div>
+      </div>
+    </div>
+
   </div>
 
 
@@ -158,27 +183,27 @@
         <div class="col-md-4">
           <h2>Get in touch</h2>
           <ul class="list-unstyled footer-link">
-            <li class="d-flex">
-              <span class="me-3"><i class="fas fa-map-marker-alt"></i> </span><span class="text-white">B-138 Shahpura
-                Bhopal,462039</span>
+            <li class="py-1">
+              <span class="me-3"><i class="fas fa-map-marker-alt"></i> </span><span class="text-white">B-138 Shahpura,
+                Bhopal, 462039</span>
             </li>
-            <li class="d-flex">
+            <li class="py-1">
               <span class="me-3"><i class="fas fa-phone-alt"></i> </span><span class="text-white">9131729001</span>
             </li>
-            <li class="d-flex">
+            <li class="py-1">
               <span class="me-3"><i class="far fa-envelope"></i> </span><span class="text-white"><a
                   href="mailto:ar.richapathak@gmail.com">ar.richapathak@gmail.com</a></span>
             </li>
           </ul>
         </div>
         <div class="col-md-2">
-          <h2>Links</h2>
+          <h2>Navigate To</h2>
           <ul class="list-unstyled footer-link">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Our Team</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li class="py-1"><a href="">Home</a></li>
+            <li class="py-1"><a href="">About</a></li>
+            <li class="py-1"><a href="">Projects</a></li>
+            <li class="py-1"><a href="">Our Team</a></li>
+            <li class="py-1"><a href="">Contact Us</a></li>
           </ul>
         </div>
       </div>
@@ -186,16 +211,19 @@
         <div class="col text-center">
           <h2>Our Social Media</h2>
           <ul class="list-unstyled footer-link d-flex footer-social justify-content-center">
-            <li><a href="#"><span class="icons"><i class="fab fa-facebook-f"></i></span></a></li>
-            <li><a href="#"><span class="icons"><i class="fab fa-instagram"></i></span></a></li>
-            <li><a href="https://www.linkedin.com/in/ar-richa-pathak-0795aa14a/"><span class="icons"><i
-                    class="fab fa-linkedin-in"></i></span></a></li>
+            <li class="m-2"><a href="#" class="p-1 rounded-circle"><span class=""><i
+                    class="fab fa-instagram text-primary fs-4"></i></span></a></li>
+            <li class="m-2"><a href="#" class="p-1 rounded-circle"><span class=""><i
+                    class="fab fa-facebook text-primary fs-4"></i></span></a></li>
+            <li class="m-2"><a href="#" class="p-1 rounded-circle"><span class=""><i
+                    class="fab fa-linkedin-in text-primary fs-4"></i></span></a></li>
           </ul>
         </div>
       </div>
       <div class="row">
         <div class="col-12 text-md-center text-left">
-          <p>Copyright <span>&copy;</span><span id="currentYear"></span> All Rights Reserved. | Made by Prachi Pathak</p>
+          <p>Copyright <span>&copy;</span><span id="currentYear"></span> All Rights Reserved. | Made by Prachi Pathak
+          </p>
         </div>
       </div>
     </div>
@@ -203,7 +231,7 @@
 
   <script>
     const todaysDate = new Date();
-    $('#currentYear').html( todaysDate.getFullYear());
+    $('#currentYear').html(todaysDate.getFullYear());
   </script>
 
 
@@ -214,7 +242,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-
+  <script src="./js/index.js"></script>
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
