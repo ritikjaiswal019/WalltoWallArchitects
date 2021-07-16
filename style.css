@@ -1,7 +1,5 @@
 body{
     background-color: #edebeb;
-}
-#carouselHomeFade{
     margin-top: 60px;
 }
 .parallax {
@@ -40,8 +38,21 @@ body{
 
 /* About Section */
 /* .about-section{
-    height: 20vw;
+    background-color: rgba(0, 0, 0, 0.1);
 } */
+
+
+/* contact us */
+#contact-form{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.500);
+    border-right: none;
+}
+.g-maps{
+    min-height: 400px;
+}
+.g-maps iframe{
+    min-height: 400px;
+}
 
 /* Our Team */
 .team-img{
@@ -97,7 +108,11 @@ body{
 } */
 
 @media (min-width:991px){
-    #carouselHomeFade{
+    body{
         margin-top: 0;
+    }
+    #contact-form{
+        border-right: 1px solid rgba(0, 0, 0, 0.500);
+        border-bottom: none;
     }
 }
